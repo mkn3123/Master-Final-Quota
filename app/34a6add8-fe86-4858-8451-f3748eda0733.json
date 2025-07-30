@@ -1,0 +1,3318 @@
+{
+  "pageDefinitionId" : "34a6add8-fe86-4858-8451-f3748eda0733",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_969" : {
+            "type" : "page_config",
+            "controlId" : "6018d47e-2c1b-4543-bf1b-7a06a4669846",
+            "useGreyBackgroundPage" : true,
+            "controlKey" : "control_969"
+          },
+          "control_970" : {
+            "type" : "label",
+            "controlId" : "88c43d78-fdba-4486-8f39-36070574f8d4",
+            "accessRoles" : null,
+            "controlData" : "<p style=\"color: #333333; font-family: Poppins, Arial, sans-serif; font-size: 15px;\"><strong style=\"font-size: 24px;\"><img style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; float: right;\" src=\"data:image/png;base64,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\" width=\"214\" height=\"51\" />Quota Spreading</strong></p>\n<p style=\"color: #333333; font-family: Poppins, Arial, sans-serif; font-size: 15px;\"><strong style=\"font-size: 24px;\"><span style=\"font-weight: 400; color: #1d1c1d; font-family: Arial, sans-serif; font-size: 11.5pt;\">Please select a Plan Year, Scenario and Territory Model to view the corresponding spread patterns.</span></strong></p>",
+            "layoutSize" : 100,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_970"
+          },
+          "control_971" : {
+            "type" : "dropdown",
+            "controlId" : "d55d7ace-3fc4-4281-aff1-c91f540a73e4",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "year_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d55d7ace-3fc4-4281-aff1-c91f540a73e4",
+              "handlers" : [ "assignCurrentVariable" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_time",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_year"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "labelText" : "Plan Year",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_971"
+          },
+          "control_972" : {
+            "type" : "dropdown",
+            "controlId" : "d0c39218-550f-469d-a560-ad4fe2c5945e",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "scenario_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d0c39218-550f-469d-a560-ad4fe2c5945e",
+              "handlers" : [ "assignCurrentVariable" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_scenario",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "labelText" : "Scenario",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_972"
+          },
+          "control_973" : {
+            "type" : "dropdown",
+            "controlId" : "309dcf36-7c5c-4677-b369-d91e7be1f103",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "default_territory",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "309dcf36-7c5c-4677-b369-d91e7be1f103",
+              "handlers" : [ "assignCurrentVariable" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_territory_model",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "309dcf36-7c5c-4677-b369-d91e7be1f103",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Territory_Models_Dropdown",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_territory_model"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "territory_model_name"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "territory_model_name"
+            },
+            "labelText" : "Territory Model",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_973"
+          },
+          "control_974" : {
+            "type" : "label",
+            "controlId" : "162ca93a-8952-4d69-8b07-4e34740daa2a",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_974"
+          },
+          "control_975" : {
+            "type" : "chart",
+            "controlId" : "304428c3-60a9-4c79-bebf-ee1fe4781f59",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "save_month",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "304428c3-60a9-4c79-bebf-ee1fe4781f59",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "default_territory",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "304428c3-60a9-4c79-bebf-ee1fe4781f59",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_territory_model",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "304428c3-60a9-4c79-bebf-ee1fe4781f59",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "confirm_refresh",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "304428c3-60a9-4c79-bebf-ee1fe4781f59",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quota_spreading_chart",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "period" : "#963276",
+                "mid_market" : "#105F87",
+                "enterprise" : "#CC6AAD",
+                "smb" : "#E5682E",
+                "growth" : "#CC6AAD"
+              },
+              "customLabels" : {
+                "period" : "period",
+                "mid_market" : "mid_market",
+                "enterprise" : "enterprise",
+                "smb" : "smb",
+                "growth" : "growth"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "line",
+            "title" : "",
+            "subtitle" : "",
+            "xAxis" : {
+              "title" : {
+                "text" : "Period"
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : "Weighting"
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "enterprise",
+            "yAxisFields" : [ "period", "mid_market", "enterprise", "smb", "growth" ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "controlKey" : "control_975"
+          },
+          "control_976" : {
+            "type" : "label",
+            "controlId" : "14718ece-784d-42c6-ba9b-32591cf27148",
+            "accessRoles" : null,
+            "controlData" : "<p><strong>Spread Patterns</strong></p>\n<p>Click on a row in the table below to edit a spread pattern for a given territory.&nbsp; A new spread pattern can be assigned to a territory using the Add Spread Pattern button or copied from an existing spread pattern using the Copy Spread Pattern button.&nbsp; One or more spread patterns can also be refreshed based on the forecast using the Refresh From Forecast button.</p>",
+            "layoutSize" : null,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_976"
+          },
+          "control_977" : {
+            "type" : "table",
+            "controlId" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "edit_month",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "save_month",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "default_territory",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "select_territory_model",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "save_add",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "delete_spread",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "save_copy",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "confirm_refresh",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3d8002d-6647-4717-beba-db38bf0f79a2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Quota_Spreading_Grid",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "territory_name",
+              "name" : "territory_name",
+              "headerName" : "Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "fy_ft",
+              "name" : "fy_ft",
+              "headerName" : "FY",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "q1_ft",
+              "name" : "q1_ft",
+              "headerName" : "Q1",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m01_ft",
+              "name" : "m01_ft",
+              "headerName" : "M01",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m02_ft",
+              "name" : "m02_ft",
+              "headerName" : "M02",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m03_ft",
+              "name" : "m03_ft",
+              "headerName" : "M03",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "q2_ft",
+              "name" : "q2_ft",
+              "headerName" : "Q2",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m04_ft",
+              "name" : "m04_ft",
+              "headerName" : "M04",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m05_ft",
+              "name" : "m05_ft",
+              "headerName" : "M05",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m06_ft",
+              "name" : "m06_ft",
+              "headerName" : "M06",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "q3_ft",
+              "name" : "q3_ft",
+              "headerName" : "Q3",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m07_ft",
+              "name" : "m07_ft",
+              "headerName" : "M07",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m08_ft",
+              "name" : "m08_ft",
+              "headerName" : "M08",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m09_ft",
+              "name" : "m09_ft",
+              "headerName" : "M09",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "q4_ft",
+              "name" : "q4_ft",
+              "headerName" : "Q4",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m10_ft",
+              "name" : "m10_ft",
+              "headerName" : "M10",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m11_ft",
+              "name" : "m11_ft",
+              "headerName" : "M11",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "m12_ft",
+              "name" : "m12_ft",
+              "headerName" : "M12",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : true,
+              "formattingStyle" : "default"
+            } ],
+            "variables" : [ {
+              "name" : "v_id",
+              "boundToField" : "$id"
+            }, {
+              "name" : "v_territory",
+              "boundToField" : "territory_name"
+            }, {
+              "name" : "v_m01",
+              "boundToField" : "m01"
+            }, {
+              "name" : "v_m02",
+              "boundToField" : "m02"
+            }, {
+              "name" : "v_m03",
+              "boundToField" : "m03"
+            }, {
+              "name" : "v_m04",
+              "boundToField" : "m04"
+            }, {
+              "name" : "v_m05",
+              "boundToField" : "m05"
+            }, {
+              "name" : "v_m06",
+              "boundToField" : "m06"
+            }, {
+              "name" : "v_m07",
+              "boundToField" : "m07"
+            }, {
+              "name" : "v_m08",
+              "boundToField" : "m08"
+            }, {
+              "name" : "v_m09",
+              "boundToField" : "m09"
+            }, {
+              "name" : "v_m10",
+              "boundToField" : "m10"
+            }, {
+              "name" : "v_m11",
+              "boundToField" : "m11"
+            }, {
+              "name" : "v_m12",
+              "boundToField" : "m12"
+            }, {
+              "name" : "v_q1",
+              "boundToField" : "q1"
+            }, {
+              "name" : "v_q2",
+              "boundToField" : "q2"
+            }, {
+              "name" : "v_q3",
+              "boundToField" : "q3"
+            }, {
+              "name" : "v_q4",
+              "boundToField" : "q4"
+            }, {
+              "name" : "v_fy",
+              "boundToField" : "fy"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "controlKey" : "control_977"
+          },
+          "control_978" : {
+            "type" : "slideout",
+            "controlId" : "32c5d35d-2666-4429-b0e4-9843decd94ba",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "edit_month",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "32c5d35d-2666-4429-b0e4-9843decd94ba",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "save_month",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "32c5d35d-2666-4429-b0e4-9843decd94ba",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "cancel_month",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "32c5d35d-2666-4429-b0e4-9843decd94ba",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "delete_spread",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "32c5d35d-2666-4429-b0e4-9843decd94ba",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Spread Pattern",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_979" : {
+                      "type" : "dropdown",
+                      "controlId" : "4ce0a04c-6648-4837-aa19-8497ef3ca6f7",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4ce0a04c-6648-4837-aa19-8497ef3ca6f7",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "save_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4ce0a04c-6648-4837-aa19-8497ef3ca6f7",
+                        "handlers" : [ "validateNonEmpty" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4ce0a04c-6648-4837-aa19-8497ef3ca6f7",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Quota_Spreading_Territory_Dropdown1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_territory"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "labelText" : "Territory Name",
+                      "layoutSize" : null
+                    },
+                    "control_980" : {
+                      "type" : "input",
+                      "controlId" : "2d74c0cd-2ab7-410f-9abe-7260eed9350c",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "2d74c0cd-2ab7-410f-9abe-7260eed9350c",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_fy",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "2d74c0cd-2ab7-410f-9abe-7260eed9350c",
+                        "handlers" : [ "assignCurrentVariable", "customValidation" ],
+                        "handlerArgs" : [ { }, {
+                          "validationXsql" : "select case when :v_fy = 1.0000 then TRUE ELSE FALSE END",
+                          "validationErrorMessage" : "Total FY must equal 1.0000"
+                        } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_fy"
+                      } ],
+                      "labelText" : "FY",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50
+                    },
+                    "control_981" : {
+                      "type" : "label",
+                      "controlId" : "cd16e685-7039-4c29-9925-70cd665bd2c3",
+                      "accessRoles" : null,
+                      "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+                      "layoutSize" : 25
+                    },
+                    "control_982" : {
+                      "type" : "label",
+                      "controlId" : "f4252eeb-d101-4bff-8dfb-f1b00e9521b7",
+                      "accessRoles" : null,
+                      "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+                      "layoutSize" : 25
+                    },
+                    "control_983" : {
+                      "type" : "input",
+                      "controlId" : "5fc3d705-00b1-465d-9ba1-abb8ab8a9387",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5fc3d705-00b1-465d-9ba1-abb8ab8a9387",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q1",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5fc3d705-00b1-465d-9ba1-abb8ab8a9387",
+                        "handlers" : [ "assignCurrentVariable", "refresh" ],
+                        "handlerArgs" : [ { }, { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_q1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "5fc3d705-00b1-465d-9ba1-abb8ab8a9387",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q1"
+                      } ],
+                      "labelText" : "Q1",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_984" : {
+                      "type" : "input",
+                      "controlId" : "1cd46046-bf9f-4305-9579-7e2041832f59",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "1cd46046-bf9f-4305-9579-7e2041832f59",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "1cd46046-bf9f-4305-9579-7e2041832f59",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m01"
+                      } ],
+                      "labelText" : "M01",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_985" : {
+                      "type" : "input",
+                      "controlId" : "637909d4-3581-44a8-b807-2fc219717abd",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "637909d4-3581-44a8-b807-2fc219717abd",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "637909d4-3581-44a8-b807-2fc219717abd",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m02"
+                      } ],
+                      "labelText" : "M02",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_986" : {
+                      "type" : "input",
+                      "controlId" : "41dbb0be-a4bb-47d4-b9d9-348aec4c5469",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "41dbb0be-a4bb-47d4-b9d9-348aec4c5469",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "41dbb0be-a4bb-47d4-b9d9-348aec4c5469",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m03"
+                      } ],
+                      "labelText" : "M03",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_987" : {
+                      "type" : "input",
+                      "controlId" : "d4f8ebe4-eea7-42cf-b76f-9e96fe1a3635",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d4f8ebe4-eea7-42cf-b76f-9e96fe1a3635",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q2",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d4f8ebe4-eea7-42cf-b76f-9e96fe1a3635",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_q2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "d4f8ebe4-eea7-42cf-b76f-9e96fe1a3635",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q2"
+                      } ],
+                      "labelText" : "Q2",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_988" : {
+                      "type" : "input",
+                      "controlId" : "0f3d5e60-f7b3-4894-b46b-bb6ce239fc7e",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0f3d5e60-f7b3-4894-b46b-bb6ce239fc7e",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m4",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "0f3d5e60-f7b3-4894-b46b-bb6ce239fc7e",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m04"
+                      } ],
+                      "labelText" : "M04",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_989" : {
+                      "type" : "input",
+                      "controlId" : "31fa1a0a-4d1d-4afa-9a50-d959366a4e05",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "31fa1a0a-4d1d-4afa-9a50-d959366a4e05",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m5",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "31fa1a0a-4d1d-4afa-9a50-d959366a4e05",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m05"
+                      } ],
+                      "labelText" : "M05",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_990" : {
+                      "type" : "input",
+                      "controlId" : "397ef616-9eb6-4443-9182-e11ce9c04c17",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "397ef616-9eb6-4443-9182-e11ce9c04c17",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m6",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "397ef616-9eb6-4443-9182-e11ce9c04c17",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m06"
+                      } ],
+                      "labelText" : "M06",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_991" : {
+                      "type" : "input",
+                      "controlId" : "2e0de2da-e290-45c9-a38a-74bf69e67f1c",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "2e0de2da-e290-45c9-a38a-74bf69e67f1c",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q3",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "2e0de2da-e290-45c9-a38a-74bf69e67f1c",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_q3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "2e0de2da-e290-45c9-a38a-74bf69e67f1c",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q3"
+                      } ],
+                      "labelText" : "Q3",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_992" : {
+                      "type" : "input",
+                      "controlId" : "ce4cbaec-d9df-46ae-9f71-aece2ee94656",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "ce4cbaec-d9df-46ae-9f71-aece2ee94656",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m7",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "ce4cbaec-d9df-46ae-9f71-aece2ee94656",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m07"
+                      } ],
+                      "labelText" : "M07",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_993" : {
+                      "type" : "input",
+                      "controlId" : "cc736874-b05b-4b9c-ab55-81fae8179116",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "cc736874-b05b-4b9c-ab55-81fae8179116",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m8",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "cc736874-b05b-4b9c-ab55-81fae8179116",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m08"
+                      } ],
+                      "labelText" : "M08",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_994" : {
+                      "type" : "input",
+                      "controlId" : "d45c359c-6aaa-460a-8cbc-60927b97396b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d45c359c-6aaa-460a-8cbc-60927b97396b",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m9",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "d45c359c-6aaa-460a-8cbc-60927b97396b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m09"
+                      } ],
+                      "labelText" : "M09",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_995" : {
+                      "type" : "input",
+                      "controlId" : "5d7ce80a-8dff-4023-b3b2-836413a88b47",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5d7ce80a-8dff-4023-b3b2-836413a88b47",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q4",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5d7ce80a-8dff-4023-b3b2-836413a88b47",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_q4",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "5d7ce80a-8dff-4023-b3b2-836413a88b47",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q4"
+                      } ],
+                      "labelText" : "Q4",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_996" : {
+                      "type" : "input",
+                      "controlId" : "4becbb17-9249-4e2e-9e2c-bd0a1d546977",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4becbb17-9249-4e2e-9e2c-bd0a1d546977",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m10",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "4becbb17-9249-4e2e-9e2c-bd0a1d546977",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m10"
+                      } ],
+                      "labelText" : "M10",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_997" : {
+                      "type" : "input",
+                      "controlId" : "6f969586-e372-49f8-aa39-5378fc3f50df",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "6f969586-e372-49f8-aa39-5378fc3f50df",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m11",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "6f969586-e372-49f8-aa39-5378fc3f50df",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m11"
+                      } ],
+                      "labelText" : "M11",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_998" : {
+                      "type" : "input",
+                      "controlId" : "23a25d38-76f4-42e8-bb8e-23c2cabf03c2",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_month",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "23a25d38-76f4-42e8-bb8e-23c2cabf03c2",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_m12",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "23a25d38-76f4-42e8-bb8e-23c2cabf03c2",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m12"
+                      } ],
+                      "labelText" : "M12",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_999" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "cd482fc0-b5ae-45d0-98ae-3419b2af1e8b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "delete_spread",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "cd482fc0-b5ae-45d0-98ae-3419b2af1e8b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "xSQL" : "delete from quota_spreading where $id = :v_id",
+                      "layoutSize" : null
+                    },
+                    "control_1000" : {
+                      "type" : "button",
+                      "controlId" : "718c7729-cb10-4246-bed2-101baeccda9b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "cancel_month",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "718c7729-cb10-4246-bed2-101baeccda9b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_1001" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "16aac5e3-9344-4b05-b8d1-91d56b8d60c6",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "save_month",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "16aac5e3-9344-4b05-b8d1-91d56b8d60c6",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "update quota_spreading\nset m01 = :v_m01,\nm02 = :v_m02,\nm03 = :v_m03,\nm04 = :v_m04,\nm05 = :v_m05,\nm06 = :v_m06,\nm07 = :v_m07,\nm08 = :v_m08,\nm09 = :v_m09,\nm10 = :v_m10,\nm11 = :v_m11,\nm12 = :v_m12,\nq1 = :v_m01+:v_m02+:v_m03,\nq2 = :v_m04+:v_m05+:v_m06,\nq3 = :v_m07+:v_m08+:v_m09,\nq4 = :v_m10+:v_m11+:v_m12,\nfy = :v_m01+:v_m02+:v_m03+:v_m04+:v_m05+:v_m06+:v_m07+:v_m08+:v_m09+:v_m10+:v_m11+:v_m12\nwhere $id = :v_id\n\n",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right",
+            "controlKey" : "control_978"
+          },
+          "control_1002" : {
+            "type" : "slideout",
+            "controlId" : "aaa51e88-07da-42db-abe7-f0f7f72f2a43",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "button_add",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "aaa51e88-07da-42db-abe7-f0f7f72f2a43",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "cancel_add",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "aaa51e88-07da-42db-abe7-f0f7f72f2a43",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "save_add",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "aaa51e88-07da-42db-abe7-f0f7f72f2a43",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Add Spread Pattern",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1003" : {
+                      "type" : "dropdown",
+                      "controlId" : "e33d4f3f-3c8e-4112-8971-91182f090203",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "e33d4f3f-3c8e-4112-8971-91182f090203",
+                        "handlers" : [ "reset", "validateNonEmpty" ],
+                        "handlerArgs" : [ { }, { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_territory",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "e33d4f3f-3c8e-4112-8971-91182f090203",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "edit_territory",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "e33d4f3f-3c8e-4112-8971-91182f090203",
+                        "handlers" : [ "validateNonEmpty" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "e33d4f3f-3c8e-4112-8971-91182f090203",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Quota_Spreading_Territory_Dropdown1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_territory"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "labelText" : "Territory Name",
+                      "layoutSize" : null
+                    },
+                    "control_1004" : {
+                      "type" : "input",
+                      "controlId" : "0950822e-6b52-4609-b107-1e9135cf626c",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0950822e-6b52-4609-b107-1e9135cf626c",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_fy",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0950822e-6b52-4609-b107-1e9135cf626c",
+                        "handlers" : [ "assignCurrentVariable", "customValidation" ],
+                        "handlerArgs" : [ { }, {
+                          "validationXsql" : "select case when :v_fy = 1.0000 then TRUE ELSE FALSE END",
+                          "validationErrorMessage" : "Total FY must equal 1.0000"
+                        } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_fy"
+                      } ],
+                      "labelText" : "FY",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 50
+                    },
+                    "control_1005" : {
+                      "type" : "label",
+                      "controlId" : "92518b18-7e63-4e99-94f6-a1637e72dde0",
+                      "accessRoles" : null,
+                      "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+                      "layoutSize" : 25
+                    },
+                    "control_1006" : {
+                      "type" : "label",
+                      "controlId" : "23c18057-e71d-40e5-8584-3a5a0e23aefe",
+                      "accessRoles" : null,
+                      "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+                      "layoutSize" : 25
+                    },
+                    "control_1007" : {
+                      "type" : "input",
+                      "controlId" : "8095e2ea-e29e-4595-afb8-b7eaa628bfcd",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "8095e2ea-e29e-4595-afb8-b7eaa628bfcd",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q1",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "8095e2ea-e29e-4595-afb8-b7eaa628bfcd",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q1"
+                      } ],
+                      "labelText" : "Q1",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_1008" : {
+                      "type" : "input",
+                      "controlId" : "5a0c0986-5fd2-4f5c-ad0f-a048b0d618d7",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "5a0c0986-5fd2-4f5c-ad0f-a048b0d618d7",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5a0c0986-5fd2-4f5c-ad0f-a048b0d618d7",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m01"
+                      } ],
+                      "labelText" : "M01",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1009" : {
+                      "type" : "input",
+                      "controlId" : "99eb8e2b-5a87-4117-8706-bbabdcb52028",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "99eb8e2b-5a87-4117-8706-bbabdcb52028",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "99eb8e2b-5a87-4117-8706-bbabdcb52028",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m02"
+                      } ],
+                      "labelText" : "M02",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1010" : {
+                      "type" : "input",
+                      "controlId" : "d702a8bb-1440-4077-80fa-a14c1c4ae515",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m3",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "d702a8bb-1440-4077-80fa-a14c1c4ae515",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d702a8bb-1440-4077-80fa-a14c1c4ae515",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m03"
+                      } ],
+                      "labelText" : "M03",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1011" : {
+                      "type" : "input",
+                      "controlId" : "88991f9f-0281-420f-9b70-a0677429008c",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "88991f9f-0281-420f-9b70-a0677429008c",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q2",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "88991f9f-0281-420f-9b70-a0677429008c",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q2"
+                      } ],
+                      "labelText" : "Q2",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_1012" : {
+                      "type" : "input",
+                      "controlId" : "ecbdc5e8-5a30-42a3-b62c-ee5b7c48f1e8",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m4",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "ecbdc5e8-5a30-42a3-b62c-ee5b7c48f1e8",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "ecbdc5e8-5a30-42a3-b62c-ee5b7c48f1e8",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m04"
+                      } ],
+                      "labelText" : "M04",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1013" : {
+                      "type" : "input",
+                      "controlId" : "4b08ac42-ff80-4562-bae5-d9332625cf56",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m5",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "4b08ac42-ff80-4562-bae5-d9332625cf56",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4b08ac42-ff80-4562-bae5-d9332625cf56",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m05"
+                      } ],
+                      "labelText" : "M05",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1014" : {
+                      "type" : "input",
+                      "controlId" : "c4c5bdbc-b672-4d36-8124-36c3727bd4b4",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m6",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "c4c5bdbc-b672-4d36-8124-36c3727bd4b4",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "c4c5bdbc-b672-4d36-8124-36c3727bd4b4",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m06"
+                      } ],
+                      "labelText" : "M06",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1015" : {
+                      "type" : "input",
+                      "controlId" : "9c3889f5-cce5-468b-a17a-05cfb892cf60",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "9c3889f5-cce5-468b-a17a-05cfb892cf60",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_q3",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "9c3889f5-cce5-468b-a17a-05cfb892cf60",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q3"
+                      } ],
+                      "labelText" : "Q3",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_1016" : {
+                      "type" : "input",
+                      "controlId" : "2d680dc3-3771-478a-9a28-53fca4c5b9d3",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m7",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "2d680dc3-3771-478a-9a28-53fca4c5b9d3",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "2d680dc3-3771-478a-9a28-53fca4c5b9d3",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m07"
+                      } ],
+                      "labelText" : "M07",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1017" : {
+                      "type" : "input",
+                      "controlId" : "fe4a53e8-14bf-4b94-84bd-d6a68212d54b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m8",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "fe4a53e8-14bf-4b94-84bd-d6a68212d54b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "fe4a53e8-14bf-4b94-84bd-d6a68212d54b",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m08"
+                      } ],
+                      "labelText" : "M08",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1018" : {
+                      "type" : "input",
+                      "controlId" : "03ff8d50-2772-42da-88cc-31e705331a84",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m9",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "03ff8d50-2772-42da-88cc-31e705331a84",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "03ff8d50-2772-42da-88cc-31e705331a84",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m09"
+                      } ],
+                      "labelText" : "M09",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1019" : {
+                      "type" : "input",
+                      "controlId" : "5da0c39a-b4e1-4dae-9a95-9a18c388b2c6",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refresh_q4",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5da0c39a-b4e1-4dae-9a95-9a18c388b2c6",
+                        "handlers" : [ "assignCurrentVariable" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5da0c39a-b4e1-4dae-9a95-9a18c388b2c6",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_q4"
+                      } ],
+                      "labelText" : "Q4",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25
+                    },
+                    "control_1020" : {
+                      "type" : "input",
+                      "controlId" : "6afd6daf-ee10-4d81-9069-7c7d9bb56ac8",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m10",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "6afd6daf-ee10-4d81-9069-7c7d9bb56ac8",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "6afd6daf-ee10-4d81-9069-7c7d9bb56ac8",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m10"
+                      } ],
+                      "labelText" : "M10",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1021" : {
+                      "type" : "input",
+                      "controlId" : "6d372edc-b75e-4da6-b523-a9cd9c39991e",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m11",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "6d372edc-b75e-4da6-b523-a9cd9c39991e",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "6d372edc-b75e-4da6-b523-a9cd9c39991e",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m11"
+                      } ],
+                      "labelText" : "M11",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    },
+                    "control_1022" : {
+                      "type" : "input",
+                      "controlId" : "40e5dbd7-895d-470b-a359-599bf258935b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "edit_m12",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "40e5dbd7-895d-470b-a359-599bf258935b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "button_add",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "40e5dbd7-895d-470b-a359-599bf258935b",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ "reset" ],
+                        "preHandlerArgs" : [ { } ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_m12"
+                      } ],
+                      "labelText" : "M12",
+                      "labelValue" : "0.0000",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : 25
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1023" : {
+                      "type" : "button",
+                      "controlId" : "4b2469d2-318f-4922-b6e0-2623cf3946be",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "cancel_add",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "4b2469d2-318f-4922-b6e0-2623cf3946be",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_1024" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "09dbed13-68f4-4b96-8949-88c34a66e824",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "save_add",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "09dbed13-68f4-4b96-8949-88c34a66e824",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Save",
+                      "xSQL" : "insert into quota_spreading (plan_year, scenario, territory_model, territory_name, m01, m02, m03, m04, m05, m06, m07, m08, m09, m10, m11, m12, q1, q2, q3, q4, fy)\nvalues(:v_year, :v_scenario, :v_territory_model, :v_territory, :v_m01, :v_m02, :v_m03, :v_m04, :v_m05, :v_m06, :v_m07, :v_m08, :v_m09, :v_m10, :v_m11, :v_m12, :v_m01+:v_m02+:v_m03,\n:v_m04+:v_m05+:v_m06,\n:v_m07+:v_m08+:v_m09,\n:v_m10+:v_m11+:v_m12,\n:v_m01+:v_m02+:v_m03+:v_m04+:v_m05+:v_m06+:v_m07+:v_m08+:v_m09+:v_m10+:v_m11+:v_m12)",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right",
+            "controlKey" : "control_1002"
+          },
+          "control_1025" : {
+            "type" : "button",
+            "controlId" : "f7b9c097-8891-4ba9-99c9-688e8b567d47",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "button_add",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "f7b9c097-8891-4ba9-99c9-688e8b567d47",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Add Spread Pattern ",
+            "layoutSize" : 16.66,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_1025"
+          },
+          "control_1026" : {
+            "type" : "button",
+            "controlId" : "8a0af1c9-f283-4a11-a65c-838cce6fd2b7",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "button_copy",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "8a0af1c9-f283-4a11-a65c-838cce6fd2b7",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Copy Spread Pattern",
+            "layoutSize" : 16.66,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_1026"
+          },
+          "control_1027" : {
+            "type" : "button",
+            "controlId" : "70ba2d40-1d62-4d81-a752-67cc13d0febf",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "button_refresh",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "70ba2d40-1d62-4d81-a752-67cc13d0febf",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Refresh From Forecast",
+            "layoutSize" : 16.66,
+            "styles" : {
+              "useGreyBackground" : true
+            },
+            "controlKey" : "control_1027"
+          },
+          "control_1028" : {
+            "type" : "slideout",
+            "controlId" : "3559422c-f0a6-4537-b00b-1f34eb64d908",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "button_copy",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3559422c-f0a6-4537-b00b-1f34eb64d908",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "save_copy",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3559422c-f0a6-4537-b00b-1f34eb64d908",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "e_edit_allocation_cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3559422c-f0a6-4537-b00b-1f34eb64d908",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "toggle" ],
+              "preHandlerArgs" : [ { } ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Copy Spread Pattern",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1029" : {
+                      "type" : "label",
+                      "controlId" : "7559b9c2-793c-4e6b-bab9-df84cf6b39f3",
+                      "accessRoles" : null,
+                      "controlData" : "<p>Select a Territory to copy from and a Territory to copy to.&nbsp; You cannot copy to a Territory that already exists.</p>",
+                      "layoutSize" : null
+                    },
+                    "control_1030" : {
+                      "type" : "dropdown",
+                      "controlId" : "32634510-580a-49f1-b5ba-dc43291d7321",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_copy",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "32634510-580a-49f1-b5ba-dc43291d7321",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "32634510-580a-49f1-b5ba-dc43291d7321",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Quota_Spreading_Territory_Dropdown",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_from"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "labelText" : "Copy From",
+                      "layoutSize" : null
+                    },
+                    "control_1031" : {
+                      "type" : "dropdown",
+                      "controlId" : "89998f1f-01d6-427d-beb2-ef27897a54b6",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "button_copy",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "89998f1f-01d6-427d-beb2-ef27897a54b6",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "89998f1f-01d6-427d-beb2-ef27897a54b6",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Quota_Spreading_Territory_Dropdown1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_to"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "territory_name"
+                      },
+                      "labelText" : "Copy To",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1032" : {
+                      "type" : "button",
+                      "controlId" : "916d2646-592c-4f33-9780-3914727f7d05",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "e_edit_allocation_cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "916d2646-592c-4f33-9780-3914727f7d05",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_1033" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "051fa973-f432-49a4-82d2-5f965932135f",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "save_copy",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "051fa973-f432-49a4-82d2-5f965932135f",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Copy",
+                      "xSQL" : "insert into quota_spreading (plan_year, scenario, territory_model, territory_name, m01, m02, m03, m04, m05, m06, m07, m08, m09, m10, m11, m12, q1, q2, q3, q4, fy)\nselect plan_year, scenario, territory_model, :v_to, m01, m02, m03, m04, m05, m06, m07, m08, m09, m10, m11, m12, q1, q2, q3, q4, fy\nfrom quota_spreading\nwhere plan_year = :v_year and scenario = :v_scenario and territory_model = :v_territory_model and territory_name = :v_from \n",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right",
+            "controlKey" : "control_1028"
+          },
+          "control_1034" : {
+            "type" : "slideout",
+            "controlId" : "ab36da6d-29b2-4f57-9ac1-dfb740e4b06e",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "cancel_refresh",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ab36da6d-29b2-4f57-9ac1-dfb740e4b06e",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "confirm_refresh",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ab36da6d-29b2-4f57-9ac1-dfb740e4b06e",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "button_refresh",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ab36da6d-29b2-4f57-9ac1-dfb740e4b06e",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "xxl",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Refresh From Forecast",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1035" : {
+                      "type" : "chart",
+                      "controlId" : "c53b2672-d50c-4c57-9c56-15d13b72d64b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "c53b2672-d50c-4c57-9c56-15d13b72d64b",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "quota_spreading_fcst_chart",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "enterprise" : "#A67BC7",
+                          "mid_market" : "#3e99ab",
+                          "smb" : "#963276",
+                          "growth" : "#EDA20C"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "chartType" : "line",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "period",
+                      "yAxisFields" : [ "enterprise", "mid_market", "smb", "growth" ],
+                      "layoutSize" : null,
+                      "titleAlignment" : "left",
+                      "subtitleAlignment" : "left"
+                    },
+                    "control_1036" : {
+                      "type" : "list",
+                      "controlId" : "3b7d0414-eb9d-4bb1-8fc2-a930e3b7e7eb",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "3b7d0414-eb9d-4bb1-8fc2-a930e3b7e7eb",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Quota_Spreading_Grid_FCST",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ {
+                        "field" : "territory_name",
+                        "name" : "territory_name",
+                        "headerName" : "Territory",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "fy_ft",
+                        "name" : "fy_ft",
+                        "headerName" : "FY",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "q1_ft",
+                        "name" : "q1_ft",
+                        "headerName" : "Q1",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m01_ft",
+                        "name" : "m01_ft",
+                        "headerName" : "M01",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m02_ft",
+                        "name" : "m02_ft",
+                        "headerName" : "M02",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m03_ft",
+                        "name" : "m03_ft",
+                        "headerName" : "M03",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "q3_ft",
+                        "name" : "q3_ft",
+                        "headerName" : "Q3",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m04_ft",
+                        "name" : "m04_ft",
+                        "headerName" : "M04",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m05_ft",
+                        "name" : "m05_ft",
+                        "headerName" : "M05",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m06_ft",
+                        "name" : "m06_ft",
+                        "headerName" : "M06",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "q2_ft",
+                        "name" : "q2_ft",
+                        "headerName" : "Q2",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m07_ft",
+                        "name" : "m07_ft",
+                        "headerName" : "M07",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m08_ft",
+                        "name" : "m08_ft",
+                        "headerName" : "M08",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m09_ft",
+                        "name" : "m09_ft",
+                        "headerName" : "M09",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "q4_ft",
+                        "name" : "q4_ft",
+                        "headerName" : "Q4",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m10_ft",
+                        "name" : "m10_ft",
+                        "headerName" : "M10",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m11_ft",
+                        "name" : "m11_ft",
+                        "headerName" : "M11",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      }, {
+                        "field" : "m12_ft",
+                        "name" : "m12_ft",
+                        "headerName" : "M12",
+                        "dataType" : "string",
+                        "editable" : false,
+                        "isPrimaryKey" : true,
+                        "formattingStyle" : "default"
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_test",
+                        "boundToField" : "territory_name"
+                      } ],
+                      "selectedField" : "territory_name",
+                      "selectedVariable" : "v_territories",
+                      "multiSelectEnabled" : true
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1037" : {
+                      "type" : "button",
+                      "controlId" : "1242a3f8-0a10-49eb-a26f-7365122c2509",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "cancel_refresh",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "1242a3f8-0a10-49eb-a26f-7365122c2509",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_1038" : {
+                      "type" : "button",
+                      "controlId" : "9e841fb0-96ed-4c88-b588-45e2896eaa8b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refresh_save",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "9e841fb0-96ed-4c88-b588-45e2896eaa8b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Refresh",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right",
+            "controlKey" : "control_1034"
+          },
+          "control_1039" : {
+            "type" : "modal",
+            "controlId" : "531f738b-9462-4683-851a-9188d32ef396",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "refresh_save",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "531f738b-9462-4683-851a-9188d32ef396",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "cancel_confirmation",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "531f738b-9462-4683-851a-9188d32ef396",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "confirm_refresh",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "531f738b-9462-4683-851a-9188d32ef396",
+              "handlers" : [ "toggle" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Confirmation",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1040" : {
+                      "type" : "label",
+                      "controlId" : "3d3a933b-a40d-44a9-b0ee-534934d89177",
+                      "accessRoles" : null,
+                      "controlData" : "<p>Are you sure you want to refresh? This action will overwrite the existing spread patterns.</p>",
+                      "layoutSize" : null
+                    },
+                    "control_1041" : {
+                      "type" : "variableConfigurator",
+                      "controlId" : "186a6683-de29-431b-9aee-b6c15b38a8a9",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "insert_values",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "186a6683-de29-431b-9aee-b6c15b38a8a9",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "confirm_refresh",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "186a6683-de29-431b-9aee-b6c15b38a8a9",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "quota_spreading_insert",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "v_placeholder"
+                      } ],
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "value"
+                      },
+                      "usingMultiSelectVariableFormat" : false,
+                      "title" : "Variable Configurator"
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1042" : {
+                      "type" : "button",
+                      "controlId" : "cbbd73c5-0057-47da-aa73-258ec033d126",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "cancel_confirmation",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "cbbd73c5-0057-47da-aa73-258ec033d126",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_1043" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "80a7cc46-3621-4de3-b037-ab223df8c8cf",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "insert_values",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "80a7cc46-3621-4de3-b037-ab223df8c8cf",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Refresh",
+                      "xSQL" : "delete * from $framework.quota_spreading\nwhere (plan_year = :v_year)\nand (scenario = :v_scenario)\nand (territory_model = :v_territory_model)\nand territory_name in :v_territories;",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "controlKey" : "control_1039"
+          },
+          "control_1044" : {
+            "type" : "variableConfigurator",
+            "controlId" : "1a767473-639a-4b6f-96b7-04d05c1f8775",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1a767473-639a-4b6f-96b7-04d05c1f8775",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ "refresh" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "year_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "1a767473-639a-4b6f-96b7-04d05c1f8775",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_plan_year_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_year"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Year",
+            "controlKey" : "control_1044"
+          },
+          "control_1045" : {
+            "type" : "variableConfigurator",
+            "controlId" : "9012c47a-7ef6-419e-8d6d-aee599b62d6e",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "9012c47a-7ef6-419e-8d6d-aee599b62d6e",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ "refresh" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "scenario_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "9012c47a-7ef6-419e-8d6d-aee599b62d6e",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_scenario_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Scenario",
+            "controlKey" : "control_1045"
+          },
+          "control_1046" : {
+            "type" : "variableConfigurator",
+            "controlId" : "a579edaa-8cd8-4525-b1f0-f7d3176f3933",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a579edaa-8cd8-4525-b1f0-f7d3176f3933",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "default_territory",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "a579edaa-8cd8-4525-b1f0-f7d3176f3933",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Territory_default_model",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_territory_model"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "modelname"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Territory",
+            "controlKey" : "control_1046"
+          },
+          "control_1047" : {
+            "type" : "variableConfigurator",
+            "controlId" : "c3c6e2a8-17ef-40df-9585-c28057bba8f7",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c3c6e2a8-17ef-40df-9585-c28057bba8f7",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Quota_Seasonality",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_q1"
+            }, {
+              "name" : "v_q2"
+            } ],
+            "valueField" : {
+              "dataType" : "float",
+              "name" : "q1"
+            },
+            "usingMultiSelectVariableFormat" : true,
+            "title" : "Variable Configurator",
+            "controlKey" : "control_1047"
+          },
+          "control_1048" : {
+            "type" : "variableConfigurator",
+            "controlId" : "1141c5fa-dfd1-44de-a2a9-07d619a2aeba",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "edit_m1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1141c5fa-dfd1-44de-a2a9-07d619a2aeba",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1141c5fa-dfd1-44de-a2a9-07d619a2aeba",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m3",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1141c5fa-dfd1-44de-a2a9-07d619a2aeba",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_q1",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "1141c5fa-dfd1-44de-a2a9-07d619a2aeba",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "1141c5fa-dfd1-44de-a2a9-07d619a2aeba",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quota_q1_spread",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_q1"
+            } ],
+            "valueField" : {
+              "dataType" : "decimal",
+              "name" : "spread"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Q1",
+            "controlKey" : "control_1048"
+          },
+          "control_1049" : {
+            "type" : "variableConfigurator",
+            "controlId" : "63aa8931-40cd-4cd5-a580-5ada15a5d04a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "refresh_q2",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "63aa8931-40cd-4cd5-a580-5ada15a5d04a",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m4",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "63aa8931-40cd-4cd5-a580-5ada15a5d04a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m5",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "63aa8931-40cd-4cd5-a580-5ada15a5d04a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m6",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "63aa8931-40cd-4cd5-a580-5ada15a5d04a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "63aa8931-40cd-4cd5-a580-5ada15a5d04a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quota_q2_spread",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_q2"
+            } ],
+            "valueField" : {
+              "dataType" : "long",
+              "name" : "spread"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Q2",
+            "controlKey" : "control_1049"
+          },
+          "control_1050" : {
+            "type" : "variableConfigurator",
+            "controlId" : "3bae3cf8-51e5-4bc2-96bf-6488b3b629dc",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "edit_m7",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3bae3cf8-51e5-4bc2-96bf-6488b3b629dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m8",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3bae3cf8-51e5-4bc2-96bf-6488b3b629dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m9",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3bae3cf8-51e5-4bc2-96bf-6488b3b629dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_q3",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "3bae3cf8-51e5-4bc2-96bf-6488b3b629dc",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "3bae3cf8-51e5-4bc2-96bf-6488b3b629dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quota_q3_spread",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_q3"
+            } ],
+            "valueField" : {
+              "dataType" : "long",
+              "name" : "spread"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Q3",
+            "controlKey" : "control_1050"
+          },
+          "control_1051" : {
+            "type" : "variableConfigurator",
+            "controlId" : "ee675e49-af2f-48ba-8a3c-5514316e7692",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "edit_m10",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ee675e49-af2f-48ba-8a3c-5514316e7692",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m11",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ee675e49-af2f-48ba-8a3c-5514316e7692",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m12",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ee675e49-af2f-48ba-8a3c-5514316e7692",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_q4",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ee675e49-af2f-48ba-8a3c-5514316e7692",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ee675e49-af2f-48ba-8a3c-5514316e7692",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quota_q4_spread",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_q4"
+            } ],
+            "valueField" : {
+              "dataType" : "long",
+              "name" : "spread"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Q4",
+            "controlKey" : "control_1051"
+          },
+          "control_1052" : {
+            "type" : "variableConfigurator",
+            "controlId" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "refresh_fy",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m3",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m4",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m5",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m6",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m7",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m8",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m9",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m10",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m11",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "edit_m12",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "56f4eff2-37dd-4288-9d1a-d302e5c86455",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quota_fy_spread",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_fy"
+            } ],
+            "valueField" : {
+              "dataType" : "long",
+              "name" : "spread"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC FY",
+            "controlKey" : "control_1052"
+          }
+        }
+      }
+    }
+  },
+  "title" : "Quota Spreading",
+  "versionName" : "1.0"
+}
