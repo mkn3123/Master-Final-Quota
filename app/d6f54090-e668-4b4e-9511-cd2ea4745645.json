@@ -1,0 +1,2113 @@
+{
+  "pageDefinitionId" : "d6f54090-e668-4b4e-9511-cd2ea4745645",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1928" : {
+            "type" : "page_config",
+            "controlId" : "bb5d2361-c0f1-4a59-b940-bc7bef8548da",
+            "useGreyBackgroundPage" : false
+          },
+          "control_2034" : {
+            "type" : "variableConfigurator",
+            "controlId" : "b6172311-b371-40c9-92ac-7cd999534a16",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "b6172311-b371-40c9-92ac-7cd999534a16",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "b6172311-b371-40c9-92ac-7cd999534a16",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_model"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Variable Configurator1",
+            "staticValue" : "US Regions",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          },
+          "control_2038" : {
+            "type" : "variableConfigurator",
+            "controlId" : "a807dcae-5ecd-4da4-8486-9a0daec23c67",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a807dcae-5ecd-4da4-8486-9a0daec23c67",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc2",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a807dcae-5ecd-4da4-8486-9a0daec23c67",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "var_parent"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Variable Configurator2",
+            "staticValue" : "All",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          },
+          "control_1988" : {
+            "type" : "slideout",
+            "controlId" : "8629f16a-d766-421f-acf8-706615295ed1",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "CompareScenarios",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "8629f16a-d766-421f-acf8-706615295ed1",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "xxl",
+            "hasHeader" : true,
+            "hasFooter" : false,
+            "modalHeaderMessage" : "Quota Scenario Comparison",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_2039" : {
+                      "type" : "dropdown",
+                      "controlId" : "3f38a454-ebca-4b97-9beb-38253e04c04d",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "3f38a454-ebca-4b97-9beb-38253e04c04d",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : "",
+                          "validationLogic" : [ {
+                            "expression" : "EQUALS",
+                            "value" : "US Districts",
+                            "datatype" : "STRING",
+                            "variableName" : "v_model"
+                          } ],
+                          "validationLogicCombinator" : "AND"
+                        },
+                        "id" : "3f38a454-ebca-4b97-9beb-38253e04c04d",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : "",
+                          "validationLogic" : [ {
+                            "expression" : "EQUALS",
+                            "value" : "US Regions",
+                            "datatype" : "STRING",
+                            "variableName" : "v_model"
+                          } ],
+                          "validationLogicCombinator" : "AND"
+                        },
+                        "id" : "3f38a454-ebca-4b97-9beb-38253e04c04d",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "vc3",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "3f38a454-ebca-4b97-9beb-38253e04c04d",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "quotaplan_dd1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "variables" : [ {
+                        "name" : "v_model_name"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "model"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "model"
+                      },
+                      "labelText" : "Model",
+                      "layoutSize" : 25,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1989" : {
+                      "type" : "input",
+                      "controlId" : "f5bd60dd-173d-4775-a2e1-d19f52040f52",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "var_metric"
+                      } ],
+                      "labelText" : "Base Scenario",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : 25,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1991" : {
+                      "type" : "dropdown",
+                      "controlId" : "11ab49e5-a7fc-4fcc-aa92-5a19c3207c2e",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "11ab49e5-a7fc-4fcc-aa92-5a19c3207c2e",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "11ab49e5-a7fc-4fcc-aa92-5a19c3207c2e",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "comparescenario_dropdown1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "variables" : [ {
+                        "name" : "v_compare"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "scenario"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "scenario"
+                      },
+                      "labelText" : "Compare Scenario",
+                      "layoutSize" : 25,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2045" : {
+                      "type" : "label",
+                      "controlId" : "ca7d1a5e-a5f2-4283-a0b7-413aee614992",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "controlData" : "",
+                      "layoutSize" : 25,
+                      "intl" : false,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "helpIconValue" : null,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1993" : {
+                      "type" : "tile",
+                      "controlId" : "f481fec1-f15b-49f2-8bdf-2d554d3b7209",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : true,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "f481fec1-f15b-49f2-8bdf-2d554d3b7209",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "ScenarioOn",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "f481fec1-f15b-49f2-8bdf-2d554d3b7209",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Base_scenario_td_Quotasum",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "titleText" : "Base Scenario Total Quota",
+                      "subtitleText" : "",
+                      "icon" : "No Icon",
+                      "data" : "",
+                      "column" : "totaladjusted_quota_scenario1",
+                      "layoutSize" : 25,
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1994" : {
+                      "type" : "tile",
+                      "controlId" : "0e96dc5d-294b-4206-8d5d-05cb2515a686",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : true,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0e96dc5d-294b-4206-8d5d-05cb2515a686",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0e96dc5d-294b-4206-8d5d-05cb2515a686",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Compare_scenario_td_Quotasum",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "titleText" : "Compare Scenario Total Quota",
+                      "subtitleText" : "",
+                      "icon" : "No Icon",
+                      "data" : "",
+                      "column" : "totaladjusted_quota",
+                      "layoutSize" : 25,
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1995" : {
+                      "type" : "tile",
+                      "controlId" : "fd5add31-ab3c-4ffc-896d-a8ad400c925d",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : true,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "fd5add31-ab3c-4ffc-896d-a8ad400c925d",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "fd5add31-ab3c-4ffc-896d-a8ad400c925d",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "variance_td_Quota",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "titleText" : "Variance $",
+                      "subtitleText" : "",
+                      "icon" : "No Icon",
+                      "data" : "",
+                      "column" : "difference_adjusted_quota",
+                      "layoutSize" : 25,
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1996" : {
+                      "type" : "tile",
+                      "controlId" : "d0bd52b4-b437-4997-8a0f-f4b50e0840e1",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : true,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d0bd52b4-b437-4997-8a0f-f4b50e0840e1",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "d0bd52b4-b437-4997-8a0f-f4b50e0840e1",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "Variance_td_Quota_percentage_dif",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "titleText" : "Variance %",
+                      "subtitleText" : "",
+                      "icon" : "No Icon",
+                      "data" : "",
+                      "column" : "percentagedifference_adjusted_quota",
+                      "layoutSize" : 25,
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1998" : {
+                      "type" : "chart",
+                      "controlId" : "2744460d-396a-415b-b33b-f28b4dd0093b",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "2744460d-396a-415b-b33b-f28b4dd0093b",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "2744460d-396a-415b-b33b-f28b4dd0093b",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "2744460d-396a-415b-b33b-f28b4dd0093b",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "2744460d-396a-415b-b33b-f28b4dd0093b",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph1",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105F87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1999" : {
+                      "type" : "chart",
+                      "controlId" : "c4ebba7c-120c-423c-bfd2-d05e2b45e958",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "c4ebba7c-120c-423c-bfd2-d05e2b45e958",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "c4ebba7c-120c-423c-bfd2-d05e2b45e958",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "c4ebba7c-120c-423c-bfd2-d05e2b45e958",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "c4ebba7c-120c-423c-bfd2-d05e2b45e958",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph2",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2000" : {
+                      "type" : "chart",
+                      "controlId" : "0e5d6326-79ca-4cce-982c-dcddffe317c2",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0e5d6326-79ca-4cce-982c-dcddffe317c2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0e5d6326-79ca-4cce-982c-dcddffe317c2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0e5d6326-79ca-4cce-982c-dcddffe317c2",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0e5d6326-79ca-4cce-982c-dcddffe317c2",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph3",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66B6DE"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2001" : {
+                      "type" : "chart",
+                      "controlId" : "4381d85d-9dc3-480a-8268-0b700ac3c3c1",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "4381d85d-9dc3-480a-8268-0b700ac3c3c1",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4381d85d-9dc3-480a-8268-0b700ac3c3c1",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4381d85d-9dc3-480a-8268-0b700ac3c3c1",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "4381d85d-9dc3-480a-8268-0b700ac3c3c1",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph4",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105F87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2027" : {
+                      "type" : "chart",
+                      "controlId" : "8d1ce3d0-fa84-486f-b68b-718c009e2bb9",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "8d1ce3d0-fa84-486f-b68b-718c009e2bb9",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "8d1ce3d0-fa84-486f-b68b-718c009e2bb9",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "8d1ce3d0-fa84-486f-b68b-718c009e2bb9",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "8d1ce3d0-fa84-486f-b68b-718c009e2bb9",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph5",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2026" : {
+                      "type" : "chart",
+                      "controlId" : "0d7bb912-7a74-4422-9dd7-44a52af37146",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "0d7bb912-7a74-4422-9dd7-44a52af37146",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0d7bb912-7a74-4422-9dd7-44a52af37146",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0d7bb912-7a74-4422-9dd7-44a52af37146",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "0d7bb912-7a74-4422-9dd7-44a52af37146",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph6",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2041" : {
+                      "type" : "chart",
+                      "controlId" : "ca9a025b-e006-44ce-99a5-997d787e5d97",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "ca9a025b-e006-44ce-99a5-997d787e5d97",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca9a025b-e006-44ce-99a5-997d787e5d97",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca9a025b-e006-44ce-99a5-997d787e5d97",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca9a025b-e006-44ce-99a5-997d787e5d97",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "vc3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "ca9a025b-e006-44ce-99a5-997d787e5d97",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph61",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "South US",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2042" : {
+                      "type" : "chart",
+                      "controlId" : "88671d90-3009-4a50-a99f-972775489d89",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "88671d90-3009-4a50-a99f-972775489d89",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "88671d90-3009-4a50-a99f-972775489d89",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "88671d90-3009-4a50-a99f-972775489d89",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "88671d90-3009-4a50-a99f-972775489d89",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "vc3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "88671d90-3009-4a50-a99f-972775489d89",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph62",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66B6DE"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "Central US",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2043" : {
+                      "type" : "chart",
+                      "controlId" : "97908e8d-e2f2-46f4-8112-2176bad5d06e",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "97908e8d-e2f2-46f4-8112-2176bad5d06e",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "97908e8d-e2f2-46f4-8112-2176bad5d06e",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "97908e8d-e2f2-46f4-8112-2176bad5d06e",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "97908e8d-e2f2-46f4-8112-2176bad5d06e",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "vc3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "97908e8d-e2f2-46f4-8112-2176bad5d06e",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph63",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105F87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "East US",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_2044" : {
+                      "type" : "chart",
+                      "controlId" : "5a34e3b2-b4bf-41bc-8973-a24a7e0c2390",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "5a34e3b2-b4bf-41bc-8973-a24a7e0c2390",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "comparescenarioondropdown",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "5a34e3b2-b4bf-41bc-8973-a24a7e0c2390",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m1",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "5a34e3b2-b4bf-41bc-8973-a24a7e0c2390",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "m2",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "5a34e3b2-b4bf-41bc-8973-a24a7e0c2390",
+                        "handlers" : [ "show" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "vc3",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "5a34e3b2-b4bf-41bc-8973-a24a7e0c2390",
+                        "handlers" : [ "hide" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "TD_Quota_Enterprise_graph64",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : {
+                          "base_scenario" : "#105f87",
+                          "compare_scenario" : "#66b6de"
+                        },
+                        "customLabels" : {
+                          "base_scenario" : "base_scenario",
+                          "compare_scenario" : "compare_scenario"
+                        }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "whereClauseVariable" : null,
+                      "chartType" : "column",
+                      "title" : "West US",
+                      "subtitle" : "",
+                      "xAxis" : {
+                        "title" : {
+                          "text" : ""
+                        },
+                        "type" : ""
+                      },
+                      "yAxis" : {
+                        "title" : {
+                          "text" : ""
+                        }
+                      },
+                      "ref" : { },
+                      "xAxisField" : "territory",
+                      "yAxisFields" : [ "base_scenario", "compare_scenario" ],
+                      "layoutSize" : 50,
+                      "titleAlignment" : "center",
+                      "subtitleAlignment" : "left",
+                      "helpIconValue" : null,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosition" : "right",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : { }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            },
+            "panelType" : "right"
+          },
+          "control_1978" : {
+            "type" : "modal",
+            "controlId" : "606f8143-515a-46c1-8124-91b846bf4be1",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "createscenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "606f8143-515a-46c1-8124-91b846bf4be1",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "cancel",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "606f8143-515a-46c1-8124-91b846bf4be1",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenariocreated",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "606f8143-515a-46c1-8124-91b846bf4be1",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : false,
+            "modalHeaderMessage" : "Creating New Scenario >>",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1979" : {
+                      "type" : "label",
+                      "controlId" : "5761cb49-9144-4c50-9f60-5fbad9a4c107",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "controlData" : "<p>This will create a copy of the currently selected scenario. Would you like to proceed?</p>",
+                      "layoutSize" : null,
+                      "intl" : false,
+                      "helpIconPosition" : "alignLeft",
+                      "helpIconTooltipPosiiton" : "right",
+                      "helpIconValue" : null,
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1980" : {
+                      "type" : "button",
+                      "controlId" : "c657e0ca-dac3-43b7-9f1e-cac1eca3095b",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "yescreatescenario",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "c657e0ca-dac3-43b7-9f1e-cac1eca3095b",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Yes, Create",
+                      "layoutSize" : 25,
+                      "buttonColorType" : "primary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    },
+                    "control_1981" : {
+                      "type" : "button",
+                      "controlId" : "d6585509-23a3-49f4-b8b8-d30181c3f876",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "d6585509-23a3-49f4-b8b8-d30181c3f876",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : 25,
+                      "buttonColorType" : "primary",
+                      "icon" : "",
+                      "iconPosition" : "left",
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : { }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_1982" : {
+            "type" : "modal",
+            "controlId" : "04769ccd-8fb0-488d-9e9d-9f1df9a94da9",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "yescreatescenario",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "04769ccd-8fb0-488d-9e9d-9f1df9a94da9",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "scenariocreated",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "04769ccd-8fb0-488d-9e9d-9f1df9a94da9",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "modalSize" : "md",
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Creating New Scenario>>",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1983" : {
+                      "type" : "input",
+                      "controlId" : "1e698c3c-1780-4b60-8304-f4b7ebc3ae0f",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "redoscenario",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "1e698c3c-1780-4b60-8304-f4b7ebc3ae0f",
+                        "handlers" : [ "reset" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "v_create"
+                      } ],
+                      "labelText" : "Scenario Name",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false,
+                      "internalName" : "Type new scenario name"
+                    },
+                    "control_1984" : {
+                      "type" : "input",
+                      "controlId" : "1f6286c5-9976-4547-8226-f6c6f272bd52",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "yescreatescenario",
+                        "eventSelection" : "BIND_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "1f6286c5-9976-4547-8226-f6c6f272bd52",
+                        "handlers" : [ "refresh", "assignCurrentVariable" ],
+                        "handlerArgs" : [ { }, { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "variables" : [ {
+                        "name" : "var_metric"
+                      } ],
+                      "labelText" : "Selected Scenario",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : true,
+                      "layoutSize" : null,
+                      "useEnterBroadcast" : false,
+                      "shouldRenderHidden" : false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_1986" : {
+                      "type" : "workflowButton",
+                      "controlId" : "d0b96688-fd29-4a7f-957f-75f8d7134a3c",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ {
+                        "name" : "scenariocreated",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "d0b96688-fd29-4a7f-957f-75f8d7134a3c",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      }, {
+                        "name" : "refresh_filter",
+                        "eventSelection" : "CREATE_EVENT",
+                        "broadcastArgs" : {
+                          "validationXsql" : ""
+                        },
+                        "id" : "d0b96688-fd29-4a7f-957f-75f8d7134a3c",
+                        "handlers" : [ ],
+                        "handlerArgs" : [ ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "controlData" : "Create Scenario",
+                      "xSQL" : "call StartXFlow(XFlowName='scenario_create')",
+                      "workflowName" : "scenario_create",
+                      "layoutSize" : null,
+                      "buttonColorType" : "primary",
+                      "shouldRenderHidden" : false,
+                      "shouldRunSync" : false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_1975" : {
+            "type" : "variableConfigurator",
+            "controlId" : "f241ada7-1037-4ee4-bf4a-fa50acde91ef",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f241ada7-1037-4ee4-bf4a-fa50acde91ef",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "defaultsceenario",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f241ada7-1037-4ee4-bf4a-fa50acde91ef",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Scenario default",
+            "staticValue" : "Iteration 1",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING"
+          },
+          "control_1932" : {
+            "type" : "label",
+            "controlId" : "aeb2e689-7a46-4d4f-8516-2cd9a58b05fd",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+            "layoutSize" : 50,
+            "styles" : {
+              "useGreyBackground" : false
+            }
+          },
+          "control_1953" : {
+            "type" : "variableConfigurator",
+            "controlId" : "290c6c0a-1c25-4429-a3a6-f3ac73a87b78",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "290c6c0a-1c25-4429-a3a6-f3ac73a87b78",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "default_parent",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "290c6c0a-1c25-4429-a3a6-f3ac73a87b78",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "schema" : null,
+              "seriesColors" : { },
+              "fields" : null,
+              "columns" : null
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "var_parent"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Parent",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING",
+            "staticValue" : "All"
+          },
+          "control_1954" : {
+            "type" : "variableConfigurator",
+            "controlId" : "064081dc-2e84-4a32-b1e0-588d4f33b5c7",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "064081dc-2e84-4a32-b1e0-588d4f33b5c7",
+              "handlers" : [ "refresh" ],
+              "preHandlers" : [ "refresh" ]
+            }, {
+              "name" : "default_metric",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "064081dc-2e84-4a32-b1e0-588d4f33b5c7",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Quota_Default_Metric",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "value"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Metric"
+          }
+        }
+      }
+    }
+  },
+  "title" : "quota_top_down_comparison_updated"
+}
