@@ -1,0 +1,117 @@
+{
+  "applicationId" : "5669d7fd-4a5f-42e3-891f-447ae06c39ed",
+  "applicationName" : "Master Quota Version",
+  "icon" : "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "sections" : [ {
+    "name" : "Quota Management",
+    "icon" : "Align Justify",
+    "description" : "",
+    "sections" : [ {
+      "name" : "Quota Reconciliation",
+      "icon" : "Calendar Check",
+      "pageDefinitionId" : "c5e0ba81-8281-479a-a5d4-dbd5d570ee95",
+      "description" : "",
+      "sections" : [ ],
+      "accessRoles" : null,
+      "privileges" : null,
+      "isReferredPage" : false
+    }, {
+      "name" : "Configuration",
+      "icon" : "List Bulleted Check",
+      "description" : "",
+      "sections" : [ {
+        "name" : "Quota Configuration",
+        "icon" : "Automation",
+        "pageDefinitionId" : "e54b3294-3c97-40d4-94e3-d000f108ccd6",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      }, {
+        "name" : "Quota Models",
+        "icon" : "Automation",
+        "pageDefinitionId" : "d3b34e35-e78f-48df-b070-0d23a94f9bf1",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      }, {
+        "name" : "Quota Spreading",
+        "icon" : "Automation",
+        "pageDefinitionId" : "34a6add8-fe86-4858-8451-f3748eda0733",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      }, {
+        "name" : "Quota Ramp",
+        "icon" : "Layers",
+        "pageDefinitionId" : "2004a027-47e9-49ad-9b4a-b8dc51685be8",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      }, {
+        "name" : "Quota Management",
+        "icon" : "Automation",
+        "pageDefinitionId" : "155f808e-946a-4e2c-b053-b45e63f9b44a",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      }, {
+        "name" : "Quota Override",
+        "icon" : "Automation",
+        "pageDefinitionId" : "43ac6e9d-2861-49e5-9f22-4f58a4442df8",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      } ],
+      "accessRoles" : null,
+      "privileges" : null,
+      "isReferredPage" : false
+    }, {
+      "name" : "Models",
+      "icon" : "Layers",
+      "description" : "",
+      "sections" : [ {
+        "name" : "Quota Top-Down Planning",
+        "icon" : "Blocks",
+        "pageDefinitionId" : "fc193e65-1d13-413e-8914-71c9744c76d7",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      }, {
+        "name" : "Quota Bottom Up",
+        "icon" : "Blocks",
+        "pageDefinitionId" : "c331e53b-6925-4fe5-93fc-d4bee4eecdb1",
+        "description" : "",
+        "sections" : [ ],
+        "accessRoles" : null,
+        "privileges" : null,
+        "isReferredPage" : false
+      } ],
+      "accessRoles" : null,
+      "privileges" : null,
+      "isReferredPage" : false
+    } ],
+    "accessRoles" : null,
+    "privileges" : null,
+    "isReferredPage" : false
+  } ],
+  "accessRoles" : [ ],
+  "tagIds" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "github.com/mkn3123/Master-Final-Quota",
+  "defaultBranch" : "initial",
+  "applicationI18nFiles" : [ ]
+}
