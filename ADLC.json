@@ -1,0 +1,13 @@
+{
+  "application" : "app/Application.json",
+  "queries" : null,
+  "workflows" : null,
+  "pageDefinitions" : [ "app/155f808e-946a-4e2c-b053-b45e63f9b44a.json", "app/2004a027-47e9-49ad-9b4a-b8dc51685be8.json", "app/34a6add8-fe86-4858-8451-f3748eda0733.json", "app/43ac6e9d-2861-49e5-9f22-4f58a4442df8.json", "app/c331e53b-6925-4fe5-93fc-d4bee4eecdb1.json", "app/c5e0ba81-8281-479a-a5d4-dbd5d570ee95.json", "app/d3b34e35-e78f-48df-b070-0d23a94f9bf1.json", "app/e54b3294-3c97-40d4-94e3-d000f108ccd6.json", "app/fc193e65-1d13-413e-8914-71c9744c76d7.json" ],
+  "policySets" : null,
+  "tables" : null,
+  "compositeComponents" : [ {
+    "pageDefinitionId" : "d6f54090-e668-4b4e-9511-cd2ea4745645",
+    "path" : "app/d6f54090-e668-4b4e-9511-cd2ea4745645.json"
+  } ],
+  "applicationTags" : null
+}
