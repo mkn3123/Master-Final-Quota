@@ -1,0 +1,3202 @@
+{
+  "pageDefinitionId" : "c5e0ba81-8281-479a-a5d4-dbd5d570ee95",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_2032" : {
+            "type" : "page_config",
+            "controlId" : "82749c2b-a165-46e4-a551-9b410da31c70",
+            "useGreyBackgroundPage" : false,
+            "controlKey" : "control_2032"
+          },
+          "control_2033" : {
+            "type" : "label",
+            "controlId" : "423f2ae4-5ba1-483a-af3f-a5f35b774158",
+            "accessRoles" : null,
+            "controlData" : "<p style=\"color: #333333; font-family: Poppins, Arial, sans-serif; font-size: 15px;\"><span style=\"font-size: 24pt;\">Quota Reconciliation</span></p>\n<hr />",
+            "layoutSize" : 100,
+            "styles" : {
+              "useGreyBackground" : false
+            },
+            "controlKey" : "control_2033"
+          },
+          "control_2062" : {
+            "type" : "dropdown",
+            "controlId" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+              "broadcastArgs" : {
+                "validationXsql" : "",
+                "validationLogic" : [ {
+                  "expression" : "EQUALS",
+                  "value" : "US Regions",
+                  "datatype" : "STRING",
+                  "variableName" : "v_model1"
+                } ],
+                "validationLogicCombinator" : "AND"
+              },
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+              "handlers" : [ "assignCurrentVariable", "refresh" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : "",
+                "validationLogic" : [ {
+                  "expression" : "EQUALS",
+                  "value" : "US Districts",
+                  "datatype" : "STRING",
+                  "variableName" : "v_model1"
+                } ],
+                "validationLogicCombinator" : "AND"
+              },
+              "id" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "model1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : "",
+                "validationLogic" : [ {
+                  "expression" : "EQUALS",
+                  "value" : "HP GLOBAL TERRITORY MODEL",
+                  "datatype" : "STRING",
+                  "variableName" : "v_model1"
+                } ],
+                "validationLogicCombinator" : "AND"
+              },
+              "id" : "f0617fe3-ba8d-47e2-8d71-f13b2681ab69",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotaplan_dd1",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_model1"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "model"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "model"
+            },
+            "labelText" : "Model",
+            "layoutSize" : 25,
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2062"
+          },
+          "control_2064" : {
+            "type" : "variableConfigurator",
+            "controlId" : "8b379eab-ae2f-4061-8930-9d793b802758",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "8b379eab-ae2f-4061-8930-9d793b802758",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "8b379eab-ae2f-4061-8930-9d793b802758",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_model1"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Variable Configurator1",
+            "staticValue" : "HP GLOBAL TERRITORY MODEL",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING",
+            "controlKey" : "control_2064"
+          },
+          "control_2034" : {
+            "type" : "dropdown",
+            "controlId" : "273a0677-8d9b-4714-a2de-f2d95d8eb361",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "year_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "273a0677-8d9b-4714-a2de-f2d95d8eb361",
+              "handlers" : [ "assignCurrentVariable" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "273a0677-8d9b-4714-a2de-f2d95d8eb361",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_time",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_year"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "labelText" : "Plan Year",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : false
+            },
+            "controlKey" : "control_2034"
+          },
+          "control_2035" : {
+            "type" : "dropdown",
+            "controlId" : "bb6a3461-22f1-446e-8166-ffbf9c27f94c",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "scenario_default",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "bb6a3461-22f1-446e-8166-ffbf9c27f94c",
+              "handlers" : [ "assignCurrentVariable" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "bb6a3461-22f1-446e-8166-ffbf9c27f94c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "bb6a3461-22f1-446e-8166-ffbf9c27f94c",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "Quota_plannig_Dropdown_scenario1",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "scenario"
+            },
+            "labelText" : "Scenario",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : false
+            },
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2035"
+          },
+          "control_2036" : {
+            "type" : "label",
+            "controlId" : "638eca08-a50e-41e9-92e0-2812c6b6ca88",
+            "accessRoles" : null,
+            "controlData" : "<p><span style=\"color: #ffffff;\">...</span></p>",
+            "layoutSize" : 25,
+            "styles" : {
+              "useGreyBackground" : false
+            },
+            "controlKey" : "control_2036"
+          },
+          "control_2037" : {
+            "type" : "tile",
+            "controlId" : "52278ede-6cd4-404e-92b7-108144e36480",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "52278ede-6cd4-404e-92b7-108144e36480",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "52278ede-6cd4-404e-92b7-108144e36480",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Dashboard_KPI",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Target",
+            "subtitleText" : "Total target for the fiscal year",
+            "icon" : "Chart Line",
+            "data" : "",
+            "column" : "target",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "controlKey" : "control_2037"
+          },
+          "control_2038" : {
+            "type" : "tile",
+            "controlId" : "5728eb9f-ea2f-4322-9546-b070cf64a30c",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5728eb9f-ea2f-4322-9546-b070cf64a30c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "5728eb9f-ea2f-4322-9546-b070cf64a30c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Dashboard_KPI",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Bottom Up Quota",
+            "subtitleText" : "Total quota deployed",
+            "icon" : "Credit Card",
+            "data" : "",
+            "column" : "quota",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "controlKey" : "control_2038"
+          },
+          "control_2039" : {
+            "type" : "tile",
+            "controlId" : "52463372-8a40-4769-963c-fbbbc921ea06",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "52463372-8a40-4769-963c-fbbbc921ea06",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "52463372-8a40-4769-963c-fbbbc921ea06",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Dashboard_KPI",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Top Down Quota",
+            "subtitleText" : "Quota - Target",
+            "icon" : "Credit Card",
+            "data" : "",
+            "column" : "variance",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "controlKey" : "control_2039"
+          },
+          "control_2040" : {
+            "type" : "tile",
+            "controlId" : "e9a40134-d4a3-4121-8ffa-26c9cbfa5e20",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e9a40134-d4a3-4121-8ffa-26c9cbfa5e20",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "e9a40134-d4a3-4121-8ffa-26c9cbfa5e20",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Dashboard_KPI",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "titleText" : "Variance",
+            "subtitleText" : "Quota-Target %",
+            "icon" : "Credit Card",
+            "data" : "",
+            "column" : "variance_percent",
+            "layoutSize" : 25,
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "controlKey" : "control_2040"
+          },
+          "control_2041" : {
+            "type" : "chart",
+            "controlId" : "8afcc71e-5bf5-4ff7-91e6-bfbf09a40933",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "8afcc71e-5bf5-4ff7-91e6-bfbf09a40933",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_QuarterlyData",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "target" : "#A67BC7",
+                "quota" : "#963276"
+              },
+              "customLabels" : {
+                "target" : "Target",
+                "quota" : "Quota"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "line",
+            "title" : "Target and Quota by Quarter",
+            "subtitle" : "",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "period",
+            "yAxisFields" : [ "target", "quota" ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2041"
+          },
+          "control_2042" : {
+            "type" : "chart",
+            "controlId" : "d1deff0e-c304-4b2d-88b4-bb6832bee80c",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d1deff0e-c304-4b2d-88b4-bb6832bee80c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d1deff0e-c304-4b2d-88b4-bb6832bee80c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "model1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d1deff0e-c304-4b2d-88b4-bb6832bee80c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q7",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "target" : "#66B6DE",
+                "quota" : "#105F87"
+              },
+              "customLabels" : {
+                "target" : "Target",
+                "quota" : "Quota"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "stackedBar",
+            "title" : "Target Vs Quota by Territory",
+            "subtitle" : "",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "parent",
+            "yAxisFields" : [ "target", "quota" ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2042"
+          },
+          "control_2043" : {
+            "type" : "chart",
+            "controlId" : "0c3c9dba-333e-4068-b4a7-dba8bb5afa32",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "0c3c9dba-333e-4068-b4a7-dba8bb5afa32",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q8",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "District 0015" : "#177b8f",
+                "District 0016" : "#66B6DE",
+                "District 0017" : "#acd5de",
+                "District 0018" : "#25b6d5",
+                "District 0019" : "#106273"
+              },
+              "customLabels" : {
+                "District 0015" : "District 0015",
+                "District 0016" : "District 0016",
+                "District 0017" : "District 0017",
+                "District 0018" : "District 0018",
+                "District 0019" : "District 0019"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "donut",
+            "title" : "Headcount By Title",
+            "subtitle" : "",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "title",
+            "yAxisFields" : [ "headcount" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2043"
+          },
+          "control_2044" : {
+            "type" : "chart",
+            "controlId" : "4ad255ab-04d0-4a6d-82fd-40cc881fadae",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4ad255ab-04d0-4a6d-82fd-40cc881fadae",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q8",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "District 0015" : "#177b8f",
+                "District 0016" : "#66B6DE",
+                "District 0017" : "#EDA20C",
+                "District 0018" : "#83BD59",
+                "District 0019" : "#A67BC7"
+              },
+              "customLabels" : {
+                "District 0015" : "District 0015",
+                "District 0016" : "District 0016",
+                "District 0017" : "District 0017",
+                "District 0018" : "District 0018",
+                "District 0019" : "District 0019"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "donut",
+            "title" : "Quota by Title",
+            "subtitle" : "",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "title",
+            "yAxisFields" : [ "quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2044"
+          },
+          "control_2046" : {
+            "type" : "chart",
+            "controlId" : "02e2fecd-cea5-4bea-b384-1868de1c473b",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "02e2fecd-cea5-4bea-b384-1868de1c473b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Quota_Reconciliation_MM",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "top_down" : "#105F87",
+                "bottom_up" : "#EDA20C"
+              },
+              "customLabels" : {
+                "top_down" : "Top Down",
+                "bottom_up" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "column",
+            "title" : "Mid-Market ",
+            "subtitle" : "Top Down vs. Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "new_territory",
+            "yAxisFields" : [ "top_down", "bottom_up" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2046"
+          },
+          "control_2045" : {
+            "type" : "chart",
+            "controlId" : "24e256ff-cd96-4709-90a1-9c15cb1e1c8a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "24e256ff-cd96-4709-90a1-9c15cb1e1c8a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Quota_Reconciliation_Ent",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "top_down" : "#105F87",
+                "bottom_up" : "#177b8f"
+              },
+              "customLabels" : {
+                "top_down" : "Top Down",
+                "bottom_up" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "chartType" : "column",
+            "title" : "Enterprise",
+            "subtitle" : "Top Down vs. Bottom up Quotas",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "new_territory",
+            "yAxisFields" : [ "top_down", "bottom_up" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "styles" : {
+              "useComponentShadow" : true
+            },
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2045"
+          },
+          "control_2063" : {
+            "type" : "chart",
+            "controlId" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7120af5f-b9fe-4d2e-84c6-b00ae404b1a4",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q62",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "South US",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2063"
+          },
+          "control_2065" : {
+            "type" : "chart",
+            "controlId" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c77a12c6-367f-4a7a-a48b-56bdfed3401b",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q63",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "Central US",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2065"
+          },
+          "control_2066" : {
+            "type" : "chart",
+            "controlId" : "c2405b68-cc95-4465-8424-78cdba401450",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c2405b68-cc95-4465-8424-78cdba401450",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c2405b68-cc95-4465-8424-78cdba401450",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2405b68-cc95-4465-8424-78cdba401450",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2405b68-cc95-4465-8424-78cdba401450",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2405b68-cc95-4465-8424-78cdba401450",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2405b68-cc95-4465-8424-78cdba401450",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q64",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "East US",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2066"
+          },
+          "control_2067" : {
+            "type" : "chart",
+            "controlId" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "503145b3-fbd5-41a5-9255-32f08c89511a",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q65",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "West US",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2067"
+          },
+          "control_2056" : {
+            "type" : "chart",
+            "controlId" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "d96bb48a-297a-41eb-9bba-b2ed514b101c",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q61",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "District 0015",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2056"
+          },
+          "control_2068" : {
+            "type" : "chart",
+            "controlId" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "7548737b-491b-4dd6-8c92-6e0e55538e0d",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q66",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "District 0016",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2068"
+          },
+          "control_2069" : {
+            "type" : "chart",
+            "controlId" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ae36ab92-05d5-4a6a-9f67-94f4fb8ff2d0",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q67",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "District 0017",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2069"
+          },
+          "control_2070" : {
+            "type" : "chart",
+            "controlId" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "341fcbcc-6593-4f22-92dd-11615b7233a9",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q68",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "District 0018",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2070"
+          },
+          "control_2071" : {
+            "type" : "chart",
+            "controlId" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ef7fe000-eab6-4ec3-81cc-1ec852e03d18",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q70",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "District 0019",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2071"
+          },
+          "control_2072" : {
+            "type" : "chart",
+            "controlId" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "vc1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a1d05f10-bd60-4c23-a3f3-4dfe17fa7cfe",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q71",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "District 0020",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2072"
+          },
+          "control_2074" : {
+            "type" : "chart",
+            "controlId" : "6d0f5c34-85df-47f5-82ca-4e96c22ef8c6",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6d0f5c34-85df-47f5-82ca-4e96c22ef8c6",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6d0f5c34-85df-47f5-82ca-4e96c22ef8c6",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "6d0f5c34-85df-47f5-82ca-4e96c22ef8c6",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "6d0f5c34-85df-47f5-82ca-4e96c22ef8c6",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "6d0f5c34-85df-47f5-82ca-4e96c22ef8c6",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q72",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down ",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "3D PRINT-APJ",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2074"
+          },
+          "control_2075" : {
+            "type" : "chart",
+            "controlId" : "ba72b0fc-bd9e-4510-bb3f-f14f8ac4119d",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ba72b0fc-bd9e-4510-bb3f-f14f8ac4119d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ba72b0fc-bd9e-4510-bb3f-f14f8ac4119d",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ba72b0fc-bd9e-4510-bb3f-f14f8ac4119d",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ba72b0fc-bd9e-4510-bb3f-f14f8ac4119d",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "ba72b0fc-bd9e-4510-bb3f-f14f8ac4119d",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q73",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "3D PRINT-EMEA",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2075"
+          },
+          "control_2076" : {
+            "type" : "chart",
+            "controlId" : "f8a668c2-9090-4675-9004-7e69b9c5e18b",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f8a668c2-9090-4675-9004-7e69b9c5e18b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f8a668c2-9090-4675-9004-7e69b9c5e18b",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f8a668c2-9090-4675-9004-7e69b9c5e18b",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f8a668c2-9090-4675-9004-7e69b9c5e18b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f8a668c2-9090-4675-9004-7e69b9c5e18b",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q74",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "3D PRINT-AMS",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2076"
+          },
+          "control_2077" : {
+            "type" : "chart",
+            "controlId" : "a40fffd0-8777-4754-bdb4-dce732d454e6",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a40fffd0-8777-4754-bdb4-dce732d454e6",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a40fffd0-8777-4754-bdb4-dce732d454e6",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "a40fffd0-8777-4754-bdb4-dce732d454e6",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a40fffd0-8777-4754-bdb4-dce732d454e6",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "a40fffd0-8777-4754-bdb4-dce732d454e6",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q75",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "3D PRINT-LATAM",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2077"
+          },
+          "control_2078" : {
+            "type" : "chart",
+            "controlId" : "8766141e-7c37-45e0-b233-4408f54623dc",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "8766141e-7c37-45e0-b233-4408f54623dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "8766141e-7c37-45e0-b233-4408f54623dc",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "8766141e-7c37-45e0-b233-4408f54623dc",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "8766141e-7c37-45e0-b233-4408f54623dc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "8766141e-7c37-45e0-b233-4408f54623dc",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q76",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "3D PRINT-NA",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2078"
+          },
+          "control_2079" : {
+            "type" : "chart",
+            "controlId" : "fa4eff37-2443-457e-9f65-e67844f9ee78",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "fa4eff37-2443-457e-9f65-e67844f9ee78",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd1",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "fa4eff37-2443-457e-9f65-e67844f9ee78",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd2",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "fa4eff37-2443-457e-9f65-e67844f9ee78",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "fa4eff37-2443-457e-9f65-e67844f9ee78",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dd3",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "fa4eff37-2443-457e-9f65-e67844f9ee78",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q77",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : {
+                "adjusted_quota" : "#97d2de",
+                "bu_adjusted_quota" : "#106273"
+              },
+              "customLabels" : {
+                "adjusted_quota" : "Top Down",
+                "bu_adjusted_quota" : "Bottom Up"
+              }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "column",
+            "title" : "3D PRINT-GC",
+            "subtitle" : "Top Down vs Bottom Up Quota",
+            "xAxis" : {
+              "title" : {
+                "text" : ""
+              },
+              "type" : ""
+            },
+            "yAxis" : {
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : "territory",
+            "yAxisFields" : [ "adjusted_quota", "bu_adjusted_quota" ],
+            "layoutSize" : 50,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2079"
+          },
+          "control_2049" : {
+            "type" : "table",
+            "controlId" : "e3b9e243-ef3b-40f1-b833-1609b90d5be6",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "e3b9e243-ef3b-40f1-b833-1609b90d5be6",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "TQP_Quota_Reconciliation",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "new_territory",
+              "name" : "new_territory",
+              "headerName" : "Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "parent_territory",
+              "name" : "parent_territory",
+              "headerName" : "Parent Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "territory_level",
+              "name" : "territory_level",
+              "headerName" : "Territory Level",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "territory_type",
+              "name" : "territory_type",
+              "headerName" : "Territory Type",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "participant",
+              "name" : "participant",
+              "headerName" : "Owner",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "topdown_ft",
+              "name" : "topdown_ft",
+              "headerName" : "Top Down Quota",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "bottomup_ft",
+              "name" : "bottomup_ft",
+              "headerName" : "Bottom Up Quota",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "variance",
+              "name" : "variance",
+              "headerName" : "Variance",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "Top Down and Bottom up Quotas By Territory",
+            "styles" : {
+              "useGreyBackground" : false
+            },
+            "showRowCount" : true,
+            "stickyRowSelectEnabled" : true,
+            "multiSelectEnabled" : false,
+            "selectedField" : "",
+            "selectedVariable" : "",
+            "shouldRenderHidden" : true,
+            "controlKey" : "control_2049"
+          },
+          "control_2053" : {
+            "type" : "table",
+            "controlId" : "f0461537-4305-45ee-a0e3-9150a4f1b962",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f0461537-4305-45ee-a0e3-9150a4f1b962",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q9",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "new_territory",
+              "name" : "new_territory",
+              "headerName" : "New Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "parent_territory",
+              "name" : "parent_territory",
+              "headerName" : "Parent Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "bottom_up",
+              "name" : "bottom_up",
+              "headerName" : "Bottom Up",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "top_down",
+              "name" : "top_down",
+              "headerName" : "Top Down",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "variance",
+              "name" : "variance",
+              "headerName" : "Variance",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : true,
+            "showRowCount" : true,
+            "controlKey" : "control_2053"
+          },
+          "control_2073" : {
+            "type" : "table",
+            "controlId" : "666100a5-5c4b-44e4-b505-c4c1ceedf45b",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "666100a5-5c4b-44e4-b505-c4c1ceedf45b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "model1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "666100a5-5c4b-44e4-b505-c4c1ceedf45b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "s1",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "666100a5-5c4b-44e4-b505-c4c1ceedf45b",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "quotadash_q91",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "territory",
+              "name" : "territory",
+              "headerName" : "Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : true
+            }, {
+              "field" : "parent",
+              "name" : "parent",
+              "headerName" : "Parent Territory",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : true
+            }, {
+              "field" : "bottom_up",
+              "name" : "bottom_up",
+              "headerName" : "Bottom Up",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : true
+            }, {
+              "field" : "top_down",
+              "name" : "top_down",
+              "headerName" : "Top Down",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : true
+            }, {
+              "field" : "variance",
+              "name" : "variance",
+              "headerName" : "Variance",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : true
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false,
+            "showRowCount" : true,
+            "controlKey" : "control_2073"
+          },
+          "control_2050" : {
+            "type" : "variableConfigurator",
+            "controlId" : "ef433bd9-e281-464d-af5b-9befeb27e2c3",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ef433bd9-e281-464d-af5b-9befeb27e2c3",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ "refresh" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "year_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ef433bd9-e281-464d-af5b-9befeb27e2c3",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "as_dropdown_plan_year_default",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_year"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "plan_year"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Year",
+            "controlKey" : "control_2050"
+          },
+          "control_2051" : {
+            "type" : "variableConfigurator",
+            "controlId" : "9a5e0086-0251-480d-b8cb-c59614ffa433",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "9a5e0086-0251-480d-b8cb-c59614ffa433",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ "refresh" ],
+              "preHandlerArgs" : [ { } ]
+            }, {
+              "name" : "scenario_default",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "9a5e0086-0251-480d-b8cb-c59614ffa433",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "schema" : null,
+              "seriesColors" : { },
+              "fields" : null,
+              "columns" : null
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "variables" : [ {
+              "name" : "v_scenario"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "VC Scenario",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING",
+            "staticValue" : "Iteration 1",
+            "controlKey" : "control_2051"
+          }
+        }
+      }
+    }
+  },
+  "title" : "Reconciliation",
+  "versionName" : "1.0"
+}
